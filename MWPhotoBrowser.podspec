@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MediaPlayer'
   s.weak_frameworks = 'Photos'
 
-  s.dependency 'MBProgressHUD', '~> 0.9'
-  s.dependency 'DACircularProgress', '~> 2.3'
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'DACircularProgress', '~> 2.3.1'
 
   # SDWebImage
   # 3.7.2 contains bugs downloading local files
